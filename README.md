@@ -1,4 +1,4 @@
-# Invoice
+# Portfolio
 
 This project was forked from [Angular In Action Chapter 6](https://github.com/angular-in-action/portfolio) and updated to use Angular version 9.
 
