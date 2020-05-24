@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ConfigService } from './config.service';
-import { Stock } from './stocks.model';
+import { Stock } from './stock.model';
 
 @Injectable()
 export class StocksService {

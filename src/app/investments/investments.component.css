@@ -1,6 +1,7 @@
 .btn-cell {
-  padding: 5px;
+    padding: 5px;
 }
-:host .btn {
-  margin-right: 0;
+
+ :host .btn {
+    margin-right: 0;
 }

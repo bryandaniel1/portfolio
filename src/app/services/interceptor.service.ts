@@ -3,12 +3,12 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/do';
 import { HttpEvent, HttpInterceptor, HttpResponse, HttpHandler, HttpRequest } from '@angular/common/http';
 import { AccountService } from './account.service';
-import { Stock } from './stocks.model';
+import { Stock } from './stock.model';
 import { ConfigService } from './config.service';
 
 @Injectable()
 export class StocksInterceptor implements HttpInterceptor {
-  constructor(private accountService: AccountService) {}
+  constructor(private accountService: AccountService) { }
 
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     const request = req.clone();

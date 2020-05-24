@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Stock } from './stocks.model';
+import { Stock } from './stock.model';
 import { LocalStorageService } from './local-storage.service';
 import { AlertService } from './alert.service';
 import { CurrencyPipe } from '@angular/common';

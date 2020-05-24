@@ -1,15 +1,16 @@
-import { TestBed, inject } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 
 import { InterceptorService } from './interceptor.service';
 
 describe('InterceptorService', () => {
+  let service: InterceptorService;
+
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      providers: [InterceptorService]
-    });
+    TestBed.configureTestingModule({});
+    service = TestBed.inject(InterceptorService);
   });
 
-  it('should be created', inject([InterceptorService], (service: InterceptorService) => {
+  it('should be created', () => {
     expect(service).toBeTruthy();
-  }));
+  });
 });
